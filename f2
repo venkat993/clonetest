@@ -1,0 +1,28 @@
+warning: LF will be replaced by CRLF in f1.
+The file will have its original line endings in your working directory
+
+Dandu@Venkat MINGW64 ~/Desktop/clonetest (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   f1
+
+
+Dandu@Venkat MINGW64 ~/Desktop/clonetest (master)
+$ git commit -m "amend f1"
+[master 5aa3a10] amend f1
+ 1 file changed, 1 insertion(+)
+
+Dandu@Venkat MINGW64 ~/Desktop/clonetest (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Dandu@Venkat MINGW64 ~/Desktop/clonetest (master)
+
